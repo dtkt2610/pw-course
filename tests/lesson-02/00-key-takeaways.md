@@ -61,6 +61,7 @@
 - Biến (Variables):  Dùng để lưu trữ giá trị có thể thay đổi được, khai báo bằng từ khóa *let* hoặc *var*
 - Khai báo biến: <từ khóa><tên biến> = <giá trị>
 - Sự khác biệt giữa *let* và *var*:
+
 | let | var |
 |------|------|
 | Cú pháp hiện đại | cú pháp cũ |
