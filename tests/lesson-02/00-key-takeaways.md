@@ -32,18 +32,18 @@
 - *git commit -m "<message>"*: Lưu các commit từ vùng staging vào repository
 - *git push origin main*: Dùng để đẩy code lên GitHub
 - *git status*: Dùng để xem trạng thái của file 
- - file màu xanh: vùng staging 
- - file màu đỏ: vùng working directory
+  - file màu xanh: vùng staging 
+  - file màu đỏ: vùng working directory
 - *git log*: Dùng để kiểm tra danh sách commit
 
 **5. Quy tắc commit (Commit Convention):**
 - Giúp code gọn gàng, sạch đẹp hơn, chuyên nghiệp hơn
 - Cấu trúc: <type>:<short_description>
- - type: loại commit
-  - chore: sửa nhỏ lẻ, chính tả, xóa file không dùng tới,...
-  - feat: thêm tính năng mới, test case mới
-  - fix: sửa lỗi 1 test trước đó
- - short_description: mô tả ngắn gọn (50 kí tự), tiếng Anh hoặc tiếng Việt không dấu.
+  - type: loại commit
+    - chore: sửa nhỏ lẻ, chính tả, xóa file không dùng tới,...
+    - feat: thêm tính năng mới, test case mới
+    - fix: sửa lỗi 1 test trước đó
+  - short_description: mô tả ngắn gọn (50 kí tự), tiếng Anh hoặc tiếng Việt không dấu.
 
 ## JavaScript basic
 **1. Tổng quan về JavaScript**
@@ -54,8 +54,8 @@
 - Cú pháp cơ bản: console.log("nội dung"); - có thể dùng nháy đơn ('') hoặc dùng nháy kép ("").
 - Để thực thi file, sử dụng lệnh: node <tên file> trong terminal
 - Comment: Dùng để vô hiệu hóa tạm thời một đoạn code và dòng code được comment sẽ bị bỏ qua, không được thực thi. Có 2 cách để comment: 
- - Comment 1 dòng: //
- - Comment nhiều dòng: /**/
+  - Comment 1 dòng: //
+  - Comment nhiều dòng: /**/
 
 **3. Biến (Variables) và Hằng (Constants)**
 - Biến (Variables):  Dùng để lưu trữ giá trị có thể thay đổi được, khai báo bằng từ khóa *let* hoặc *var*
@@ -77,13 +77,13 @@
 
 Có 8 kiểu dữ liệu và được chia thành 2 nhóm chính: 
 - Kiểu nguyên thủy (Primitive):
- - Number: số thực và số nguyên
- - String: chuỗi ký tự
- - Boolean: true/false
- - Undefined
- - Null
- - Symbol
- - BigInt
+  - Number: số thực và số nguyên
+  - String: chuỗi ký tự
+  - Boolean: true/false
+  - Undefined
+  - Null
+  - Symbol
+  - BigInt
 
 - Kiểu tham chiếu (Reference): Object
 - Sử dụng hàm *typeof <tên biến>* đê kiểm tra biến đó thuộc kiểu dữ liệu nào.
@@ -91,33 +91,27 @@ Có 8 kiểu dữ liệu và được chia thành 2 nhóm chính:
 **5. Toán tử so sánh**
 - Toán tử so sánh: Dùng để so sánh hai toán hạng và trả kết quả về dạng boolean (true or false)
 - Toán tử so sánh được chia làm 3 nhóm: 
- - So sánh bằng: Ưu tiên dùng so sánh 3 bằng (===) vì nó so sánh cả giá trị và kiểu dữ liệu, chỉ dùng so sánh 2 bằng (==) khi muốn so sánh mà không quan tâm đến kiểu dữ liệu
-  - == và ===
- - So sánh không bằng
-  - !
- - So sánh lớn hơn, nhỏ hơn
-  - > 
-  - < 
-  - <=
-  - >=
+  - So sánh bằng: Ưu tiên dùng so sánh 3 bằng (===) vì nó so sánh cả giá trị và kiểu dữ liệu, chỉ dùng so sánh 2 bằng (==) khi muốn so sánh mà không quan tâm đến kiểu dữ liệu
+    - == và ===
+  - So sánh không bằng
+    - !
+  - So sánh lớn hơn, nhỏ hơn
+    - > 
+    - < 
+    - <=
+    - >=
 
 **5. Toán tử logic**
 - Toán tử logic: Dùng để kết hợp nhiều điều kiện và trả về boolean
- - && (AND): Trả về true nếu tất cả các vế của mệnh đề đều là true
- - || (OR): Trả về true nếu ít nhất một trong các vế của mệnh đề là true
+  - && (AND): Trả về true nếu tất cả các vế của mệnh đề đều là true
+  - || (OR): Trả về true nếu ít nhất một trong các vế của mệnh đề là true
 
 **6. Toán tử một ngôi**
 - Toán tử một ngôi: là toán tử chỉ cần một toán hạng để thực hiện
 - Phân loại: Có hai loại chính:
- - Prefix: toán tử nằm ở phía trước - tăng hoặc giảm giá trị trước, sau đó mới trả về kết quả
-  - ++x;
-  - --x:
- - Postfix: toán tử nằm ở phía sau - thực hiện trả về giá trị trước, sau đó mới thực hiện tăng hoặc giảm giá trị của biến
-  - x++;
-  - x--;
-
-
-
-
-
-
+  - Prefix: toán tử nằm ở phía trước - tăng hoặc giảm giá trị trước, sau đó mới trả về kết quả
+    - ++x;
+    - --x:
+  - Postfix: toán tử nằm ở phía sau - thực hiện trả về giá trị trước, sau đó mới thực hiện tăng hoặc giảm giá trị của biến
+    - x++;
+    - x--;
