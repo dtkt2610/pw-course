@@ -96,10 +96,10 @@ Có 8 kiểu dữ liệu và được chia thành 2 nhóm chính:
   - So sánh không bằng
     - !
   - So sánh lớn hơn, nhỏ hơn
-    - > 
+    - '>' 
     - < 
     - <=
-    - >=
+    - '>='
 
 **5. Toán tử logic**
 - Toán tử logic: Dùng để kết hợp nhiều điều kiện và trả về boolean
