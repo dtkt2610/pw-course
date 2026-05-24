@@ -1,4 +1,4 @@
 ***git commit --amend***: dùng để chỉnh sửa commit gần nhất
-- ***git commit --amend -m "<meassage mới>"***: thay đổi commit message của một commit gần nhất, sử dụng cú pháp
+- ***git commit --amend -m "<meassage mới>"***: thay đổi commit message của một commit gần nhất
 - ***git restore --staged <file>***: đưa một file cụ thể từ Staging trở lại Working directory
 - ***git reset HEAD~1***: Đưa nội dung commit cuối về vùng Working Directory
