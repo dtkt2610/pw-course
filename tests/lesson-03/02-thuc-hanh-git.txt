@@ -1,0 +1,58 @@
+- Tạo một folder *demo*
+a. Tạo 3 file: file1, file2, file3
+- Local: file1, file2, file3
+- Working Directory:
+- Staging: 
+- Repository:
+
+b. Chạy lệnh git init
+- Local: file1, file2, file3
+- Working Directory: file1, file2, file3
+- Staging: 
+- Repository:
+
+c. Chạy lệnh git commit -m "init project"
+- Local: file1, file2, file3
+- Working Directory: file1, file2, file3
+- Staging: 
+- Repository:
+
+d. Chạy lệnh git add file1
+- Local: file1, file2, file3
+- Working Directory: file2, file3
+- Staging: file1
+- Repository: 
+
+e. Chạy lệnh: git commit -m”add file”
+- Local: file1, file2, file3
+- Working Directory: file2, file3
+- Staging:  
+- Repository: file1
+
+f. Chạy lệnh: git add .
+- Local: file1, file2, file3
+- Working Directory: 
+- Staging: file2, file3
+- Repository: file1
+
+g. Chạy lệnh: git restore --staged file2
+- Local: file1, file2, file3
+- Working Directory: file2
+- Staging: file3
+- Repository: file1
+
+h. Chạy lệnh: git commit -m”add all files”
+- Local: file1, file2, file3
+- Working Directory: file2
+- Staging: 
+- Repository: file1, file3
+
+i. Chạy lệnh: git reset HEAD~1
+- Local: file1, file2, file3
+- Working Directory: file2, file3
+- Staging: 
+- Repository: file1
+
+- Commit còn lại: "add file"
+- Commit "init project" không có vì chưa add file nào vào vùng Staging
+- Commit "add all files" bị xóa khỏi History sau bước i
