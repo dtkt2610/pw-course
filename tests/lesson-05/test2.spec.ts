@@ -8,13 +8,11 @@ test('Thêm sản phẩm vào giỏ hàng', async ({ page }) => {
         await page.locator("//a[@href='02-xpath-product-page.html']").click();
     });
     await test.step('Sản phẩm 1: thêm 2 lần', async () => {
-        await page.locator("(//button[text()='Add to Cart'])[1]").click();
-        await page.locator("(//button[text()='Add to Cart'])[1]").click();
+        await page.locator("(//button[text()='Add to Cart'])[1]").dblclick();
     });
 
     await test.step('Sản phẩm 2: thêm 3 lần', async () => {
-        await page.locator("(//button[text()='Add to Cart'])[2]").click();
-        await page.locator("(//button[text()='Add to Cart'])[2]").click();
+        await page.locator("(//button[text()='Add to Cart'])[2]").dblclick();
         await page.locator("(//button[text()='Add to Cart'])[2]").click();
     });
     await test.step('Sản phẩm 3: thêm 1 lần', async () => {
