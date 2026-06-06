@@ -19,6 +19,9 @@ test('Todo page', async ({ page }) => {
     });
 
     await test.step('Xóa các todo có số lẻ', async () => {
+        page.on('dialog', async dialog => {
+            await dialog.accept();
+        });
         for (let i = 1; i <= 100; i += 2) {
 
             await page.locator(`//button[@id='todo-${i}-delete']`).click();
