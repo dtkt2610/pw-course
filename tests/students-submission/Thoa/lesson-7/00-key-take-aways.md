@@ -23,16 +23,16 @@ tương đối
  
 - Cú pháp chung: //tag/relationship::tag_name[@attr='value']
 - Các phương thức phổ biến: 
-  - *child::*: Tìm con trực tiếp 
-  - *descendant::*: Tìm tất cả con cháu 
-  - *parent::*: Tìm node cha
-  - *ancestor::*: Tìm node tổ tiên
-  - *following-sibling::*: Tìm node anh em phía sau
-  - *preceding-sibling::*: Tìm node anh em đứng trước
-  - *following::*: Tìm tất cả các node sau trong document
-  - *ancestor-or-self::*: Tìm node tổ tiên hoặc chính nó
-  - *preceding::*: Tìm tất cả các node trước trong document
-  - *ancestor-or-self::*: Tìm node con cháu hoặc chính nó
+  - *child::* - Tìm con trực tiếp 
+  - *descendant::* - Tìm tất cả con cháu 
+  - *parent::* - Tìm node cha
+  - *ancestor::* - Tìm node tổ tiên
+  - *following-sibling::* - Tìm node anh em phía sau
+  - *preceding-sibling::* - Tìm node anh em đứng trước
+  - *following::* - Tìm tất cả các node sau trong document
+  - *ancestor-or-self::* - Tìm node tổ tiên hoặc chính nó
+  - *preceding::* - Tìm tất cả các node trước trong document
+  - *ancestor-or-self::* - Tìm node con cháu hoặc chính nó
 
 - Các hàm và toán tử bổ trợ:
   - Wildcard (*): Khớp tất cả các loại thẻ 
@@ -40,5 +40,5 @@ tương đối
   - text(): Lấy text của node trực tiếp của element
   - normalize-space(): Chuẩn hóa khoảng trắng, loại bỏ khoảng trắng thừa ở đầu, cuối và giữa text
   - contains(): Kiểm tra chứa chuỗi con, tìm element có chứa một phần text, không cần khớp chính xác 
-  
+
 
