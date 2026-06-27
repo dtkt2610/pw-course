@@ -55,7 +55,6 @@ f. Các phần tử phía sau (following)
   
 
 g. Các phần tử phía trước (preceding)
-  <form id="registrationForm"></form>
   <div class="form-group" id="parent"></div>
   <label for="username" id="preceding">Username:</label>
   <input type="text" id="username" name="username" required="">
