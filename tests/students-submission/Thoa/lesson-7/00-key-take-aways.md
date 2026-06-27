@@ -32,7 +32,6 @@ tương đối
   - *following::* - Tìm tất cả các node sau trong document
   - *ancestor-or-self::* - Tìm node tổ tiên hoặc chính nó
   - *preceding::* - Tìm tất cả các node trước trong document
-  - *ancestor-or-self::* - Tìm node con cháu hoặc chính nó
 
 - Các hàm và toán tử bổ trợ:
   - Wildcard (*): Khớp tất cả các loại thẻ 
